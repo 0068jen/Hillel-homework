@@ -18,6 +18,7 @@
     max-width: 310px;
     min-height: 774px;
     background-color: #FBFBFB;
+    margin-right: 50px;
 }
 .categories-nav{
     font-family: "Cera-Pro";
@@ -43,9 +44,11 @@
     color: #46A358;
 }
 .img-block {
-    width: 370px;
+    max-width: 310px;
     height: 470px;
     background: -o-linear-gradient(bottom, #46A3581A 10%, #46A35808 ); 
+    text-align: center;
+    margin-right: 50px;
 }
 .super-sale{
     font-weight: 400;
@@ -88,7 +91,7 @@
     font-size: 15px;
     line-height: 40px;
     color: #3D3D3D;
-    margin-left: 300px;
+    margin-left: 260px;
 }
 .cards{
     max-width: 800px;
