@@ -121,10 +121,10 @@
    margin-top: 1px; 
    fill: currentColor;
 }
-/* .button-bottom:hover{ не розумію як пофарбувати стрілку, який вже тільки формат не пробував (фон знову білий)
+.button-bottom:hover{
     color: #46A358;
 }
-.button-bottom-img:hover{
-    color: #46A358 ; }*/
+/* .button-bottom-img:hover{
+    color: #46A358 ; }{ не розумію як пофарбувати стрілку, який вже тільки формат не пробував (фон знову білий) */
    
 
