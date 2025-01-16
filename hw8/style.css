@@ -1,0 +1,130 @@
+@font-face {
+    font-family: "Cera-Pro";
+    src: url("./fonts/CeraPro/CeraPro-Regular.ttf") format("truetype");
+}
+.container-top , .container-bottom{
+    max-width: 1202px;
+    margin: auto;
+    font-family: "Cera-Pro";
+}
+.container-top{
+    margin-top: 69px;
+}
+.top-side{
+    display: flex;
+    gap: 28px;             
+}
+.top-element{
+    display: flex;
+    align-items: end;
+    background-color: #FBFBFB;
+    max-height: 250px;
+    width: 50%;
+}
+.text-top-element{
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 46px;
+    flex-direction: column;
+    margin-right: 35px;
+    text-align: right;
+}
+.title-top {
+    text-transform: uppercase;
+    font-size: 18px;
+    color: #3D3D3D;
+    font-weight: 900;
+    line-height: 24px;
+}
+.text-top{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color:#727272 ;
+    margin-top: 9px;
+}
+.button-top{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+    line-height: 20px;
+    size: 14px;
+    text-align: center;
+    padding: 7px;
+    border-radius: 6px;
+    background-color:#46A358 ;
+    color:#FFFFFF; 
+    width: 140px;
+    height: 40px;  
+    margin-top: 25px;
+}
+.header{
+    text-align: center;
+}
+.center-header{
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 16px;
+    margin-top: 138px;
+}
+.center-p{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    margin-top: 15px;
+    color: #727272;
+}
+.bottom-side{
+    display: flex;
+    gap: 42px;
+    margin-top: 35px;
+}
+.text-bottom-element {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-bottom: 68px;
+    background-color: #FBFBFB;
+    padding: 9px 11px 12px 15px;
+}
+.date{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #46A358;
+}
+.title-bottom{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26px;
+    color: #3D3D3D;
+    margin-top: 4px;
+}
+.text-bottom{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: #727272;
+    margin-top: 4px;
+}
+.button-bottom{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #3D3D3D;
+    margin-top: 9px;
+    width: 89px;
+    height: 17px;
+}
+.button-bottom-img{
+   margin-top: 1px; 
+   fill: currentColor;
+}
+/* .button-bottom:hover{ не розумію як пофарбувати стрілку, який вже тільки формат не пробував (фон знову білий)
+    color: #46A358;
+}
+.button-bottom-img:hover{
+    color: #46A358 ; }*/
+   
+
