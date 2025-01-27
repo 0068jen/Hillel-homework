@@ -1,0 +1,235 @@
+@font-face {
+    font-family: "Cera-Pro";
+    src: url(./fonts/CeraPro/CeraPro-Regular.ttf) format("truetype");
+}
+@font-face {
+    font-family: "Cera-Pro-Bold";
+    src: url(./fonts/CeraPro/CeraPro-Bold.ttf) format("truetype");
+}
+@font-face {
+    font-family: "Encode-Sans-Expanded";
+    src: url(./fonts/Encode_Sans_Expanded/EncodeSansExpanded-Regular.ttf) format("truetype");
+}
+
+.container-nav, .container-content{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.container-nav{
+    margin-top: 30px;
+}
+
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 0.3px solid #46a35985 ;
+}
+
+.logo{
+    padding-bottom: 17px;
+}
+
+.logo-pics{
+    background-color: #ffffff;
+}
+
+.nav-list{
+    display: flex;
+    gap: 47px;
+    font-family: "Encode-Sans-Expanded";
+    padding-bottom: 25px;
+    padding-top: 7px;
+}   
+
+.nav-item{    
+    position: relative;
+}
+
+.nav-item:hover .inner-nav-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.nav-link{
+    color: #3D3D3D;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    display: block;
+}
+
+.nav-link:hover{
+    font-weight: 900;
+}
+
+.nav-item:hover.nav-item::after{
+    content: "";
+    padding-bottom: 24px;
+    border-bottom: 2px solid green;
+    display: block;
+    position: absolute;
+    height: 2px;
+    width: 100%;
+}
+
+.inner-nav-list:hover .nav-item::after{
+    display: none;
+}
+
+.inner-nav-link{
+    color: #3D3D3D;
+    font-family: "Encode-Sans-Expanded";
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 7px 17px 7px 14px;
+}
+
+.inner-nav-link:hover {
+    background-color: rgb(34, 142, 34);
+    color: #ffffff;
+}
+
+.inner-nav-link-arrow{
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    padding-right: 17px;
+    min-width: 188px;
+}
+
+.inner-nav-list {
+    display: none;
+    position: absolute;
+    min-width: 188px;
+    z-index: 10;
+    padding-top: 38px;
+}
+
+.inner2-nav-list {
+    display: none;
+    position: absolute;
+    z-index: 11;
+    padding-left: 2px;
+    min-width: 188px;
+}
+
+.inner-nav-list .nav-item, .inner2-nav-list .nav-item {
+    background-color: #EDF6EE;
+}
+
+.inner-nav-item {
+    position: relative;
+}
+
+.inner-nav-item:hover .inner2-nav-list {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 100%;
+    top: -102px;       
+}
+
+.inner-nav-item:hover svg path {
+    fill: white;
+}
+
+.inner-nav-item:hover svg {
+    transform: rotate(180deg);
+}
+
+.login-item{
+    padding-bottom: 17px;
+}   
+
+.login-button{
+    display: flex;
+    align-items: center;
+    background-color: #46A358;
+    border-radius: 6px;
+    padding: 7px 20px;
+    gap: 4px;
+}   
+
+.login-link{
+    font-family: "Cera-Pro";
+    color: #ffffff;
+    font-size: 16px;
+}
+
+
+.content{
+    display: flex;
+    margin-top: 12px;
+    background: linear-gradient(to bottom, #F5F5F5 50%, #F5F5F5 50%);
+    justify-content: left;
+}
+
+.text-part{
+    display: flex;
+    flex-direction: column;
+    font-family: "Cera-Pro";
+    margin-top: 68px;
+    margin-left: 43px;
+}
+
+h6{
+    text-transform: uppercase;
+    font-size: 14px;
+    line-height: 16px;
+    color: #3D3D3D;
+    font-weight: 500;
+}
+
+span{
+    text-transform: uppercase;
+    font-size: 70px;
+    font-weight: 900;
+    margin-top: 7px;
+    font-family: "Cera-Pro-Bold";
+}
+
+.green-text{
+    color: #46A358;
+}
+
+p{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #727272;
+    margin-top: 5px;
+}
+
+.shop{
+    width: fit-content;
+    background-color: #46A358;
+    border-radius: 6px;
+    padding: 10px 27px;
+    gap: 5px;
+    margin-top: 44px;
+}
+
+.shop-link{
+    color: rgb(255, 255, 255);
+    font-family: "Cera-Pro";
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.pics-part{
+    display: flex;
+    position: relative;
+}
+
+.small-flower{
+    position: absolute;
+    left: 50px;
+    bottom: 17px;
+}
+
