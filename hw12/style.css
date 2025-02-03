@@ -1,0 +1,209 @@
+@font-face {
+    font-family: "Cera-Pro";
+    src: url("./fonts/CeraPro/CeraPro-Regular.ttf") format("truetype");
+}
+.container-top , .container-bottom{
+    max-width: 1202px;
+    margin: auto;
+    font-family: "Cera-Pro";
+}
+.loading-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    vertical-align: middle;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgba(255, 255, 255, 0.545);
+    z-index: 9;
+    visibility: visible;
+    animation: loading 0s 7s forwards;
+}
+@keyframes loading {
+    to {
+      visibility: hidden;
+    }
+  }
+.loading{
+    max-height: 200px;
+    animation-name: loading;
+    animation-duration: 2s;
+    animation-iteration-count: 4;
+
+}
+
+@keyframes loading {
+    0% {
+        transform: scale(1);
+        opacity: 0;
+        visibility: visible;
+
+    }
+    50%{
+        transform: scale(1.5);
+        opacity: 1;
+
+    }
+    100%{
+        transform: scale(1);
+        opacity: 0;
+        visibility: hidden;
+    }
+} 
+.container-top{
+    margin-top: 69px;
+}
+.top-side{
+    display: flex;
+    gap: 28px;             
+}
+.top-element{
+    display: flex;
+    align-items: end;
+    background-color: #FBFBFB;
+    max-height: 250px;
+    width: 50%;
+}
+.img-top-element{
+   transition-duration: 1.5s; 
+}
+.img-top-element:hover{
+    transform: rotateY(180deg);
+}
+.text-top-element{
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 46px;
+    flex-direction: column;
+    margin-right: 35px;
+    text-align: right;
+}
+.title-top {
+    text-transform: uppercase;
+    font-size: 18px;
+    color: #3D3D3D;
+    font-weight: 900;
+    line-height: 24px;
+}
+.text-top{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color:#727272 ;
+    margin-top: 9px;
+}
+.button-top{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+    line-height: 20px;
+    size: 14px;
+    text-align: center;
+    padding: 7px;
+    border-radius: 6px;
+    background-color:#46A358 ;
+    color:#FFFFFF; 
+    width: 140px;
+    height: 40px;  
+    margin-top: 25px;
+    transition-duration: 1s;
+}
+.button-top:hover{
+    transform: scale(1.3);
+}
+.header{
+    text-align: center;
+}
+.center-header{
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 16px;
+    margin-top: 138px;
+}
+.center-p{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    margin-top: 15px;
+    color: #727272;
+}
+.bottom-side{
+    display: flex;
+    gap: 42px;
+    margin-top: 35px;
+}
+
+
+.bottom-element:hover{
+    animation-name: bottom;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+
+}
+@keyframes bottom{
+    0%{
+        transform: scale(1);
+    }
+
+    100%{
+        transform: scale(1.5);
+    }
+    /* 100%{
+        transform: scale(1);
+    } */
+
+}
+.text-bottom-element {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-bottom: 68px;
+    background-color: #FBFBFB;
+    padding: 9px 11px 12px 15px;
+}
+.date{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #46A358;
+}
+.title-bottom{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26px;
+    color: #3D3D3D;
+    margin-top: 4px;
+}
+.text-bottom{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: #727272;
+    margin-top: 4px;
+}
+.button-bottom{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #3D3D3D;
+    margin-top: 9px;
+    width: 89px;
+    height: 17px;
+}
+.button-bottom-img{
+   margin-top: 1px; 
+   fill: currentColor;
+}
+.button-bottom:hover{
+    color: #46A358;
+    transform: scale(1.2);
+
+}
+/* .button-bottom-img:hover{
+    color: #46A358 ; }{ не розумію як пофарбувати стрілку, який вже тільки формат не пробував (фон знову білий) */
+   
+
